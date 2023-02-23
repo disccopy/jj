@@ -1,0 +1,42 @@
+    1  lsb_release -a
+    2  cat /etc/os-release
+    3  cat /etc/issue
+    4  sudo apt update
+    5  sudo apt -y install software-properties-common
+    6  sudo add-apt-repository -y ppa:deadsnakes/ppa
+    7  sudo apt -y install python3.9 python3.9-dev python3.9-venv python3-pip git openjdk-11-jre-headless build-essential nano
+    8  python3.9 -m venv ~/redenv
+    9  source ~/redenv/bin/activate
+   10  python -m pip install -U pip setuptools wheel
+   11  python -m pip install -U Red-DiscordBot
+   12  redbot-setup
+   13  redbot 
+   14  redbot jj
+   15  redbot-setup
+   16  redbot JubblyJukebox
+   17  java
+   18  java --version
+   19  java -v
+   20  java11
+   21  redbot JubblyJukebox
+   22  ?javapath
+   23  llset java
+   24  which java
+   25  redbot JubblyJukebox
+   26  sudo apt-get install openjdk-11-jdk
+   27  history
+   28  history > history.txt
+   29  java --version
+   30  which java
+   31  /usr/lib/jvm/java-11-openjdk-amd64/bin/java --version
+   32  echo $PATH
+   33  echo $JAVA_HOME
+   34  JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+   35  vim /etc/profile
+   36  JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+   37  export PATH=$JAVA_HOME/bin:$PATH
+   38  export JAVA_HOME
+   39  export JRE_HOME
+   40  export PATH
+   41  redbot JubblyJukebox
+   42  history > history.txt
